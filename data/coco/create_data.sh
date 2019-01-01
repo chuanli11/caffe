@@ -4,11 +4,11 @@ root_dir=$cur_dir/../..
 cd $root_dir
 
 redo=false
-data_root_dir="$HOME/data/coco"
+data_root_dir="/mnt/data/data/mscoco"
 dataset_name="coco"
 mapfile="$root_dir/data/$dataset_name/labelmap_coco.prototxt"
 anno_type="detection"
-label_type="xml"
+label_type="json"
 db="lmdb"
 min_dim=0
 max_dim=0
